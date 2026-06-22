@@ -1,0 +1,25 @@
+[package]
+name = "primback"
+version = "0.1.0"
+edition = "2024"
+description = "A lightweight 3D graphics engine"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/tytoman/primback"
+homepage = "https://github.com/tytoman/primback"
+documentation = "https://docs.rs/primback"
+keywords = ["graphics", "wgpu", "3d", "rendering", "engine"]
+categories = ["rendering", "rendering::engine"]
+
+[dependencies]
+bytemuck = { version = "1.25", features = ["derive"] }
+env_logger = "0.11.10"
+glam = { version = "0.33", features = ["bytemuck"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+log = "0.4.32"
+pollster = "0.4.0"
+rodio = "0.22.2"
+web-time = "1.1.0"
+wgpu = "29.0.3"
+winit = { version = "0.30", features = ["rwh_06"] }
+fontdue = "0.8"

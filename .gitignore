@@ -1,0 +1,20 @@
+# Created by Cargo
+/target
+Cargo.lock
+
+# Backup files
+**/*.rs.bk
+
+# MSVC Windows builds of rustc
+*.pdb
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+Thumbs.db
+desktop.ini
+.DS_Store
